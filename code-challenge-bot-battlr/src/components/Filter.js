@@ -20,6 +20,7 @@
 // export default Filter;
 
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Filter extends Component {
     handleChange = (event) => {
@@ -28,9 +29,9 @@ class Filter extends Component {
 
     render() {
         return (
-                <div class = "form-floating col-sm-2 container-fluid justify-content-md-end">
+                <div class = "form-floating col-sm-2 container-fluid justify-content-md-end custom-blue-bg3">
                   
-                  <select class = "form-select" id="Open Select Menu To Filter" onChange={event =>this.handleChange(event)} aria-label="Floating label select example">
+                  <select class = "form-select custom-blue-bg3" id="Open Select Menu To Filter" onChange={event =>this.handleChange(event)} aria-label="Floating label select example">
                     <option value="All" >All</option>
                     <option value="Assault" >Assault</option>
                     <option value="Defender">Defender</option>

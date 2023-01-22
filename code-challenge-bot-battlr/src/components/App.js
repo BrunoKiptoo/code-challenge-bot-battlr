@@ -1,6 +1,7 @@
 // import React from "react";
 import BotsPage from "./BotsPage";
 
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -21,7 +22,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div className="App ">
+      <div className="App custom-blue-bg ">
         <BotsPage />
       </div>
     );

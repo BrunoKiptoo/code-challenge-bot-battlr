@@ -155,6 +155,7 @@ import YourBotArmy from './YourBotArmy'
 import BotSpecs from '../components/BotSpecs'
 import BotSearch from '../components/BotSearch'
 import Filter from '../components/Filter'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class BotsPage extends React.Component {
   constructor(){
@@ -252,7 +253,7 @@ class BotsPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class = "custom-blue-bg3 ">
         <BotSearch handleClear={this.handleClear} handleChange={this.handleChange}/>
         <br></br>
         <Filter filterChange={this.filterChange}/>

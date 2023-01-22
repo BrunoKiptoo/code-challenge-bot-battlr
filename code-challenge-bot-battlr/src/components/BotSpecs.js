@@ -79,6 +79,7 @@
 
 
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const BotSpecs = props => {
   let { bot } = props;
@@ -100,17 +101,17 @@ const BotSpecs = props => {
   }
 
   return (
-    <div className="ui segment">
-      <div className="ui two column centered grid">
+    <div class="ui segment ">
+      <div className="ui two column centered grid custom-blue-bg5">
         <div className="row">
           <div className="four wide column">
             <img
               alt="oh no!"
-              className="ui medium circular image bordered"
+              className="ui medium circular image bordered custom-blue-bg4"
               src={bot.avatar_url}
             />
           </div>
-          <div className="four wide column">
+          <div className="four wide column ">
             <h2>Name: {bot.name}</h2>
             <p>
               <strong>Catchphrase: </strong>

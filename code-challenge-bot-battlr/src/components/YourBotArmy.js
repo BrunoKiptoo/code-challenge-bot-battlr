@@ -20,6 +20,8 @@
 
 import React from "react";
 import BotCard from "../components/BotCard";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class YourBotArmy extends React.Component {
 	renderBots = () => {
@@ -30,11 +32,10 @@ class YourBotArmy extends React.Component {
   
   render(){
     return (
-      <div className="ui segment inverted olive bot-army">
-        <div className="ui five column grid">
-          <div className="row bot-army-row">
+      <div class="ui segment bot-army " >
+        <div className="ui five column grid custom-blue-bg6">
+          <div class="row bot-army-row custom-blue-bg6">
             {this.renderBots()}
-            Your Bot Army
           </div>
         </div>
       </div>

@@ -1,7 +1,8 @@
-/* body {
-  margin: 0;
+body {
+  margin: 50;
   padding: 0;
   font-family: sans-serif;
+  background-color: bisque;
 }
 
 .text-wrap {
@@ -21,16 +22,73 @@
 
 .ui.grid {
   padding: 0px 20px;
-} */
+}
+
+.card-hover:hover .card {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  width: 80%;
+  height: 80%;
+  padding: 0.5rem;
+}
+
+.card {
+  transform: scale(0.8);
+}
+
+.bot-army{
+  background-color: white !important;
+}
 
 
-body {
+.custom-blue-bg {
+  background-color: #87CEFA;
+}
+
+.custom-blue-bg2 {
+  background-color:  #808080;
+}
+
+.custom-blue-bg3 {
+  background-color:  #F5F5DC;
+}
+
+.custom-blue-bg4 {
+  background-color:  #F5F5DC;
+}
+
+.custom-blue-bg5 {
+  background-color: #D3D3D3;
+}
+
+.custom-blue-bg6 {
+  background-color: #FFFFE0;
+}
+/* 
+input::placeholder {
+   /* increase font size */
+  /* padding: 3px; /* increase padding */
+  /* line-height: 7em; /* increase line height */
+  /* width: 300px; /* increase width */
+/* } */ 
+
+
+/* body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #FFA500;
+  background-color: #8FBC8F;
 }
 
 .text-wrap {
 	word-wrap: break-word;
-}
+} */
+
