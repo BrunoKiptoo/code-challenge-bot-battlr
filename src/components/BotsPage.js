@@ -169,9 +169,9 @@ class BotsPage extends React.Component {
   }
 
   componentDidMount(){
-    fetch('http://localhost:3000/bots')
+    fetch('https://api.jsonbin.io/v3/b/63ce3aecebd26539d065a335')
     .then(res => res.json())
-    .then(bots => this.setBots(bots))
+    .then(bots => this.setBots(bots.record.bots))
       .then(bots => this.setState({
         allBots: bots
       }))
