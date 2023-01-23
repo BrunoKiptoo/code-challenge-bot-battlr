@@ -72,6 +72,24 @@ body {
 .custom-blue-bg6 {
   background-color: #FFFFE0;
 }
+
+
+.navbar-logo img {
+  width: 50px; 
+  height: 50px; 
+  object-fit: contain; 
+}
+
+.navbar-logo img {
+  max-width: 50px; /* adjust to desired width */
+  max-height: 50px; /* adjust to desired height */
+}
+
+.navbar-logo img {
+  width: 50px; /* adjust to desired width */
+  height: 50px; /* adjust to desired height */
+  object-fit: contain; /* scales the image to fit within the specified width and height */
+}
 /* 
 input::placeholder {
    /* increase font size */

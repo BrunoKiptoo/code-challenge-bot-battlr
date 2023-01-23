@@ -156,7 +156,7 @@ import BotSpecs from '../components/BotSpecs'
 import BotSearch from '../components/BotSearch'
 import Filter from '../components/Filter'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./App.css"
 class BotsPage extends React.Component {
   constructor(){
     super()
